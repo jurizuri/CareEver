@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MV1Activity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:background="@drawable/buttonoutline"
+        android:backgroundTint="#00FFFFFF"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08.26.금~09.03.토"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="254dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YYZ"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="토론토"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="236dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="48dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="220dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="출국일 및 시간 : 2022.08.26(금), 10:30am"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="185dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="웰컴독코리아"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="121dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="항공사 : 에어 캐나다"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="198dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="봉사자 도착지 : 캐나다, 토론토"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="171dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="토론토 출국자 모집"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="137dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="48dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="169dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/doginfobutton"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/info_button"
+        android:backgroundTint="@color/yellow"
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:paddingLeft="5dp"
+        android:text="@string/pet_info"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/infoplusbutton"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <TextView
+        android:id="@+id/mvtextmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="봉사현황"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="269dp"
+        android:layout_height="22dp"
+        android:max="10"
+        android:progress="3"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="36dp"
+        android:layout_height="32dp"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:srcCompat="@tools:sample/avatars"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="항공편 : "
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ICN "
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성인 1명, 일반석"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="253dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인천"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="236dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="30dp"
+        android:layout_height="24dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="229dp"
+        tools:ignore="MissingConstraints" />
+    <!--    이거 지금 직항이라는 text가 버튼 위에 보이지 않는 상황-->
+
+<!--이거 어떻게 글씨를 위로 올리지?-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
